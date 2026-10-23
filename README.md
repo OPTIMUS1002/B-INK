@@ -1,9 +1,6 @@
-
 # B/INK — Blood & Ink
 
 > A dark, editorial anime exhibition website built with pure HTML5 and CSS3.
-
-![B/INK Preview](preview.png)
 
 ---
 
@@ -57,7 +54,6 @@ The visual identity relies on a high-contrast palette and deliberate typographic
 B-INK/
 ├── index.html     # Semantic document structure and content
 ├── style.css      # Design tokens, layout rules, and media queries
-├── preview.png    # Showcase screenshot for documentation
 └── README.md      # Repository overview
 
 
