@@ -1,207 +1,101 @@
-# Blood & Ink
 
-### A dark, cinematic anime tribute website built with pure HTML and CSS
+# B/INK — Blood & Ink
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![No JavaScript](https://img.shields.io/badge/JavaScript-None-b3122b?style=for-the-badge)
-![Responsive](https://img.shields.io/badge/Responsive-Yes-2ea44f?style=for-the-badge)
+> A dark, editorial anime exhibition website built with pure HTML5 and CSS3.
 
----
-
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Preview](#preview)
-3. [Features](#features)
-4. [Tech Stack](#tech-stack)
-5. [Project Structure](#project-structure)
-6. [Getting Started](#getting-started)
-7. [Design System](#design-system)
-8. [Responsive Design](#responsive-design)
-9. [Page Sections](#page-sections)
-10. [What I Learned](#what-i-learned)
-11. [Future Improvements](#future-improvements)
-12. [Credits and Disclaimer](#credits-and-disclaimer)
-13. [Author](#author)
+![B/INK Preview](preview.png)
 
 ---
 
 ## Overview
 
-**Blood & Ink** is a one-page website that celebrates some of the most iconic characters in anime, including Goku, Luffy, Itachi, Gojo, Levi, Sukuna and Zoro. The site is styled like a digital art exhibition: a black canvas, ivory text and crimson "ink" accents.
+*Blood & Ink (B/INK)* is a single-page digital exhibition celebrating iconic figures in modern anime—including Son Goku, Monkey D. Luffy, Itachi Uchiha, Gojo Satoru, Levi Ackerman, Ryomen Sukuna, and Roronoa Zoro.
 
-The project was designed first on Wix and then rebuilt from scratch in clean, hand-written **HTML5** and **CSS3**. It uses no frameworks, no libraries and no JavaScript, to show how much can be achieved with core web fundamentals alone.
-
-**Goals of the project**
-
-- Practise semantic HTML and a clean, readable code structure
-- Build a consistent visual identity using a limited colour palette
-- Create layouts with Flexbox
-- Make a page that works on both desktop and mobile screens
-
----
-
-## Preview
-
-> Add a screenshot of your website here before submitting.
-> Save it as `screenshot.png` in the project folder, then replace this line with:
->
-> `![Blood & Ink Preview](screenshot.png)`
-
----
-
-## Features
-
-- **Fixed navigation bar** that stays visible while scrolling
-- **Full-screen hero banner** with an image overlay and character introduction
-- **Character cards** with images, titles and descriptions
-- **Hover animations** on cards, buttons and navigation links
-- **"Domain Expansion" section** with a clean vertical list layout
-- **Archive section** with a call-to-action button
-- **Smooth scrolling** between sections
-- **Fully responsive layout** using a media query
-- **Zero dependencies**: no frameworks, no JavaScript, no build tools
-
----
-
-## Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| HTML5 | Page structure and semantic markup |
-| CSS3 | Styling, Flexbox layout, hover effects, media queries |
-| Visual Studio Code | Code editor |
-| Live Server / Browser | Local testing |
-
----
-
-## Project Structure
-
-```
-blood-and-ink/
-│
-├── index.html     # Page structure and content
-├── style.css      # All styling and responsive rules
-└── README.md      # Project documentation
-```
-
----
-
-## Getting Started
-
-No installation is needed.
-
-**Option 1: Open directly**
-
-1. Download or clone the project folder.
-2. Double-click `index.html`.
-3. The website opens in your default browser.
-
-**Option 2: Using VS Code with Live Server**
-
-1. Open the project folder in Visual Studio Code.
-2. Install the **Live Server** extension.
-3. Right-click `index.html` and choose **Open with Live Server**.
-
-**Clone with Git**
-
-```bash
-git clone https://github.com/your-username/blood-and-ink.git
-cd blood-and-ink
-```
-
-> **Note:** The character images are loaded from online links, so an internet connection is required for them to appear.
+Styled with the aesthetics of an editorial art gallery, the site pairs an obsidian and charcoal backdrop with stark ivory typography and deep crimson ink accents. Originally conceived as a visual concept on Wix, the project was rebuilt from the ground up using clean, handcrafted *HTML5* and *CSS3*—completely free of frameworks, libraries, and JavaScript.
 
 ---
 
 ## Design System
 
-**Colour palette**
+The visual identity relies on a high-contrast palette and deliberate typographic rhythm to evoke an atmospheric, museum-grade aesthetic.
 
-| Colour | Hex | Usage |
-|--------|-----|-------|
-| Ink Black | `#0d0d0f` | Main background |
-| Charcoal | `#17171b` | Cards and alternate sections |
-| Ivory | `#f3ecdc` | Main text |
-| Ash Grey | `#b5ad9c` | Secondary text |
-| Blood Red | `#b3122b` | Accents, buttons, highlights |
+### Palette
 
-**Typography**
+| Role | Color | Hex | Description |
+|:-----|:------|:----|:------------|
+| *Canvas* | Obsidian | #0d0d0f | Primary background canvas |
+| *Surface* | Charcoal | #17171b | Cards, panels, and alternate sections |
+| *Accent* | Crimson | #b3122b | Branding, borders, tags, and highlights |
+| *Primary Text* | Ivory | #f3ecdc | Headings, titles, and high-emphasis body text |
+| *Muted Text* | Ash Grey | #b5ad9c | Subtitles, character lore, and timestamps |
 
-- Font family: Georgia (serif), chosen for a dramatic, editorial feel
-- Wide letter spacing on headings for an exhibition-style look
-- Uppercase labels for names and section titles
-
----
-
-## Responsive Design
-
-The layout adapts to different screen sizes:
-
-- **Desktop:** horizontal navbar, multi-column card layout
-- **Tablet:** cards wrap automatically using `flex-wrap`
-- **Mobile (below 700px):** navbar stacks vertically, hero heading shrinks, archive images stack in a single column
+### Typography & Styling
+- *Typeface:* Georgia (editorial serif) for a timeless, book-bound exhibition tone.
+- *Tracking:* Generous letter-spacing (up to 3px) across uppercase labels, badge tags, and subheaders.
+- *Interactions:* Subtle card elevations (translateY(-6px)), smooth native scrolling, and color transitions on hover.
 
 ---
 
-## Page Sections
+## Exhibition Sections
 
-| Section | Description |
-|---------|-------------|
-| **Navbar** | Fixed menu with Home, Exhibition, About and Portfolio links |
-| **Banner** | Full-screen introduction featuring Son Goku |
-| **The Vanguard** | Four character cards: Luffy, Itachi, Gojo and Levi |
-| **Domain Expansion** | Gojo, Sukuna and Zoro in a vertical showcase |
-| **Archive** | Image gallery, heading and "Enter the Archive" button |
-| **Footer** | Quick links, social links and site name |
-
----
-
-## What I Learned
-
-- Structuring a web page with semantic HTML elements
-- Building flexible layouts with Flexbox
-- Positioning elements with `fixed`, `relative` and `absolute`
-- Layering an image with a gradient overlay for readability
-- Writing a media query for mobile-friendly design
-- Keeping a project organised with separate HTML and CSS files
-- Documenting a project professionally with a README
+1. *Fixed Header (B/INK)* — Minimalist sticky bar with quick-navigation anchor links.
+2. *Hero Feature (Son Goku)* — Full-viewport hero banner spotlighting The Saiyan Spirit with layered image contrast and exhibition index numbering (01 / 12).
+3. *The Vanguard* — Gallery grid displaying featured protagonists and anti-heroes:
+   - *Monkey D. Luffy* (Dream On)
+   - *Itachi Uchiha* (Witness)
+   - *Gojo Satoru* (Infinity)
+   - *Levi Ackerman* (Salute)
+4. *Domain Expansion* — Typographic roster spotlighting signature powers and character titles across Gojo Satoru, Ryomen Sukuna, and Roronoa Zoro.
+5. *Collective Arc & Archive* — Dual-image visual spread, exhibition call-to-action, and curator contact index.
+6. *Footer* — Global directory links and social media channels.
 
 ---
 
-## Future Improvements
+## Project Structure
 
-- [ ] Add a working image slider for the hero banner using JavaScript
-- [ ] Create separate Exhibition, About and Portfolio pages
-- [ ] Add a hamburger menu for mobile navigation
-- [ ] Store images locally for offline use
-- [ ] Add a dark/light theme toggle
-- [ ] Add a contact form
-- [ ] Improve accessibility with ARIA labels and keyboard focus styles
-- [ ] Deploy the site using GitHub Pages
 
----
+B-INK/
+├── index.html     # Semantic document structure and content
+├── style.css      # Design tokens, layout rules, and media queries
+├── preview.png    # Showcase screenshot for documentation
+└── README.md      # Repository overview
 
-## Credits and Disclaimer
-
-Blood & Ink is a **non-commercial fan tribute** created for learning and portfolio purposes. All anime characters, names and related artwork belong to their respective creators, studios and rights holders. This project claims no ownership over them.
-
-- Original concept and first version designed on Wix
-- Rebuilt in HTML and CSS by the author
-- Typography: Georgia (system font)
 
 ---
 
-## Author
+## Running Locally
 
-**Atharv Singh**
-B.Tech Computer Science and Engineering (First Year)
+Because this project uses vanilla web standards with zero dependencies or build pipelines, running it requires no package managers.
 
-- GitHub: [your-username](https://github.com/your-username)
-- Email: your-email@example.com
+### 1. Clone the repository
+bash
+git clone https://github.com/OPTIMUS1002/B-INK.git
+cd B-INK
+
+
+### 2. View the site
+Open index.html directly in your browser of choice:
+- *Direct:* Double-click index.html or drag it into Chrome / Firefox / Edge / Safari.
+- *VS Code:* Right-click index.html and select *Open with Live Server*.
+- *Terminal (npx):*
+  bash
+  npx serve .
+  
+
+> Note: Image assets are served via high-resolution CDN links; an active internet connection is required for external artwork to display.
 
 ---
 
-<p align="center">Made with HTML, CSS and a love for anime.</p>
+## Responsive Breakpoints
+
+The layout uses CSS Flexbox with fluid widths and a responsive media breakpoint at 700px:
+- Desktop: Full multi-column card displays, side-by-side gallery archive, and inline navigation.
+- Mobile (<= 700px): Collapsed vertical navigation, responsive headline typography scaling (42px), and single-column image stacks.
+
+---
+
+## Credits & Disclaimer
+
+- *Author:* [Atharv Singh](https://github.com/OPTIMUS1002)
+- *Concept:* Conceived on Wix; engineered in HTML5/CSS3.
+- *Disclaimer:* Blood & Ink is an educational, non-commercial fan tribute. All characters, names, and artwork are the intellectual property of their respective creators and animation studios (Toei Animation, MAPPA, Wit Studio, Studio Pierrot, and respective authors).
