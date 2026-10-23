@@ -8,7 +8,7 @@
 
 *Blood & Ink (B/INK)* is a single-page digital exhibition celebrating iconic figures in modern anime—including Son Goku, Monkey D. Luffy, Itachi Uchiha, Gojo Satoru, Levi Ackerman, Ryomen Sukuna, and Roronoa Zoro.
 
-Styled with the aesthetics of an editorial art gallery, the site pairs an obsidian and charcoal backdrop with stark ivory typography and deep crimson ink accents. Originally conceived as a visual concept on Wix, the project was rebuilt from the ground up using clean, handcrafted *HTML5* and *CSS3*—completely free of frameworks, libraries, and JavaScript.
+Styled with the aesthetics of an editorial art gallery, the site pairs an obsidian and charcoal backdrop with stark ivory typography and deep crimson ink accents. Originally conceived as a visual concept on Wix, the project was rebuilt from the ground up using clean, handcrafted *HTML5* and *CSS3*—completely free of frameworks, libraries.
 
 ---
 
